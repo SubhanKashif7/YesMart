@@ -1,5 +1,5 @@
 const handleNavigation = () => {
-    alert("Welcome")
+    
     const nav_anchor = document.querySelectorAll(".nav-anchor");
 nav_anchor.forEach((anchor)=>{
     anchor.addEventListener("click",(event)=>{
